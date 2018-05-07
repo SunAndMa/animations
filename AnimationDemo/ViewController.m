@@ -7,7 +7,9 @@
 //
 
 #import "ViewController.h"
-#import "demo1ViewController.h"
+#import "Demo1ViewController.h"
+#import "Demo2ViewController.h"
+#import "Demo3ViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -22,7 +24,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     self.classArray = [NSMutableArray array];
-    [self addViewController:[demo1ViewController class]];
+    [self addViewController:[Demo1ViewController class]];
+    [self addViewController:[Demo2ViewController class]];
+    [self addViewController:[Demo3ViewController class]];
 }
 
 - (void)addViewController:(Class)class {

@@ -15,7 +15,9 @@
 		6B1946D1209ED33500723D35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1946D0209ED33500723D35 /* main.m */; };
 		6B1946DB209ED33500723D35 /* AnimationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1946DA209ED33500723D35 /* AnimationDemoTests.m */; };
 		6B1946E6209ED33500723D35 /* AnimationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1946E5209ED33500723D35 /* AnimationDemoUITests.m */; };
-		6B1946F6209ED57100723D35 /* demo1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1946F5209ED57100723D35 /* demo1ViewController.m */; };
+		6B1946F6209ED57100723D35 /* Demo1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1946F5209ED57100723D35 /* Demo1ViewController.m */; };
+		6B1946F9209F510A00723D35 /* Demo2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1946F8209F510A00723D35 /* Demo2ViewController.m */; };
+		6B1946FC209F59B300723D35 /* Demo3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1946FB209F59B300723D35 /* Demo3ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +54,12 @@
 		6B1946E1209ED33500723D35 /* AnimationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B1946E5209ED33500723D35 /* AnimationDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationDemoUITests.m; sourceTree = "<group>"; };
 		6B1946E7209ED33500723D35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6B1946F4209ED57100723D35 /* demo1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = demo1ViewController.h; sourceTree = "<group>"; };
-		6B1946F5209ED57100723D35 /* demo1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = demo1ViewController.m; sourceTree = "<group>"; };
+		6B1946F4209ED57100723D35 /* Demo1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo1ViewController.h; sourceTree = "<group>"; };
+		6B1946F5209ED57100723D35 /* Demo1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo1ViewController.m; sourceTree = "<group>"; };
+		6B1946F7209F510A00723D35 /* Demo2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo2ViewController.h; sourceTree = "<group>"; };
+		6B1946F8209F510A00723D35 /* Demo2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo2ViewController.m; sourceTree = "<group>"; };
+		6B1946FA209F59B300723D35 /* Demo3ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Demo3ViewController.h; sourceTree = "<group>"; };
+		6B1946FB209F59B300723D35 /* Demo3ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo3ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,8 +145,12 @@
 		6B1946F3209ED54700723D35 /* Demos */ = {
 			isa = PBXGroup;
 			children = (
-				6B1946F4209ED57100723D35 /* demo1ViewController.h */,
-				6B1946F5209ED57100723D35 /* demo1ViewController.m */,
+				6B1946F4209ED57100723D35 /* Demo1ViewController.h */,
+				6B1946F5209ED57100723D35 /* Demo1ViewController.m */,
+				6B1946F7209F510A00723D35 /* Demo2ViewController.h */,
+				6B1946F8209F510A00723D35 /* Demo2ViewController.m */,
+				6B1946FA209F59B300723D35 /* Demo3ViewController.h */,
+				6B1946FB209F59B300723D35 /* Demo3ViewController.m */,
 			);
 			path = Demos;
 			sourceTree = "<group>";
@@ -279,8 +289,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B1946C6209ED33500723D35 /* ViewController.m in Sources */,
-				6B1946F6209ED57100723D35 /* demo1ViewController.m in Sources */,
+				6B1946F6209ED57100723D35 /* Demo1ViewController.m in Sources */,
 				6B1946D1209ED33500723D35 /* main.m in Sources */,
+				6B1946FC209F59B300723D35 /* Demo3ViewController.m in Sources */,
+				6B1946F9209F510A00723D35 /* Demo2ViewController.m in Sources */,
 				6B1946C3209ED33500723D35 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

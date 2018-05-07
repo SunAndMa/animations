@@ -1,5 +1,5 @@
 //
-//  demo1ViewController.h
+//  demo2ViewController.h
 //  AnimationDemo
 //
 //  Created by 孙继桐 on 2018/5/6.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface demo1ViewController : UIViewController
+@interface Demo2ViewController : UIViewController
 
 @end

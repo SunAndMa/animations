@@ -6,16 +6,16 @@
 //  Copyright © 2018年 Sun. All rights reserved.
 //
 
-#import "demo1ViewController.h"
+#import "Demo1ViewController.h"
 
 
-@interface demo1ViewController ()
+@interface Demo1ViewController ()
 
 @property (nonatomic,strong) UIBezierPath *path;
 
 @end
 
-@implementation demo1ViewController
+@implementation Demo1ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
