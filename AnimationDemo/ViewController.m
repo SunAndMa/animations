@@ -10,6 +10,8 @@
 #import "Demo1ViewController.h"
 #import "Demo2ViewController.h"
 #import "Demo3ViewController.h"
+#import "Demo4ViewController.h"
+#import "Demo5ViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -27,6 +29,8 @@
     [self addViewController:[Demo1ViewController class]];
     [self addViewController:[Demo2ViewController class]];
     [self addViewController:[Demo3ViewController class]];
+    [self addViewController:[Demo4ViewController class]];
+    [self addViewController:[Demo5ViewController class]];
 }
 
 - (void)addViewController:(Class)class {

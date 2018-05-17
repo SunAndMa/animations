@@ -25,35 +25,35 @@
 - (void)animation {
     _backView = [[UIView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
     [self.view addSubview:_backView];
-
+    //中间大块
     [self createAnimationWithLayerFrame:_backView.bounds
                       andBezierPathRect:CGRectMake(0, 0, 100, 100)
                   andTransformFromValue:CATransform3DScale(CATransform3DIdentity, 0, 0, 0)
                     andTransformToValue:CATransform3DScale(CATransform3DIdentity, 1, 1, 0)
                    andPositionFromValue:CGPointMake(0, 0)
                      andPositionToValue:CGPointMake(0, 0)];
-    
+    //左上角
     [self createAnimationWithLayerFrame:CGRectMake(0, 0, 50, 50)
                       andBezierPathRect:CGRectMake(0, 0, 50, 50)
                   andTransformFromValue:CATransform3DScale(CATransform3DIdentity, 1, 1, 0)
                     andTransformToValue:CATransform3DScale(CATransform3DIdentity, 0, 0, 0)
                    andPositionFromValue:CGPointMake(25, 25)
                      andPositionToValue:CGPointMake(0, 0)];
-    
+    //右上角
     [self createAnimationWithLayerFrame:CGRectMake(50, 0, 50, 50)
                       andBezierPathRect:CGRectMake(0, 0, 50, 50)
                   andTransformFromValue:CATransform3DScale(CATransform3DIdentity, 1, 1, 0)
                     andTransformToValue:CATransform3DScale(CATransform3DIdentity, 0, 0, 0)
                    andPositionFromValue:CGPointMake(75, 25)
                      andPositionToValue:CGPointMake(100, 0)];
-    
+    //左下角
     [self createAnimationWithLayerFrame:CGRectMake(0, 50, 50, 50)
                       andBezierPathRect:CGRectMake(0, 0, 50, 50)
                   andTransformFromValue:CATransform3DScale(CATransform3DIdentity, 1, 1, 0)
                     andTransformToValue:CATransform3DScale(CATransform3DIdentity, 0, 0, 0)
                    andPositionFromValue:CGPointMake(25, 75)
                      andPositionToValue:CGPointMake(0, 100)];
-    
+    //右下角
     [self createAnimationWithLayerFrame:CGRectMake(50, 50, 50, 50)
                       andBezierPathRect:CGRectMake(0, 0, 50, 50)
                   andTransformFromValue:CATransform3DScale(CATransform3DIdentity, 1, 1, 0)
